@@ -1,0 +1,67 @@
+/* 
+    Theme Name: TestTheme
+    Text Domain: TestTheme
+    Author: Piotr Cembrowski
+    Version: 1.0
+*/
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    line-height: 1.2;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.non-visible {
+    display: none;
+}
+
+header h1,
+footer p {
+    text-align: center;
+}
+
+.size-post-thumbnail {
+    height: 200px;
+    width: 300px;
+}
+
+.posts-container,
+.list-of-categories,
+.post-wrapper {
+    max-width: 80%;
+    margin: auto;
+}
+
+.blog-section {
+    margin-top: 5em;
+}
+
+@media (min-width: 1200px) {
+    .posts-container,
+    .list-of-categories {
+        max-width: 50%;
+        margin: auto;
+    }
+}
+
+
+/* SINGLE */
+
+@media (min-width: 1400px) {
+    .post-wrapper {
+        max-width: 50%;
+        margin: auto;
+    }
+}
